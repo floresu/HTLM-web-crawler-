@@ -1,0 +1,5 @@
+Author: Uriel Flores
+Date: 05 November 2015
+======================
+
+The first thing I did was try to figure out how to implement the URL code that was given from the chapter book. It was a bit confusing because I did not know whether to implement the code in the SimpleCurl.cpp or SimpleCurlTest.cpp files. I was told that the URL code was supposed to be implemented in the SimpleCurlTest.cpp file. It also needed to be sorted in a specific order. The function bool, string::const_iterator url_end, string::const_iterator url_beg, and vector. I added the vector and the for loop, which extracts the URLS from the source code. When I ran my code on my terminal, all the URL's from extracted from the Xavier page.
